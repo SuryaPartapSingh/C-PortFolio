@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SP project-1</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<style>
+    /*css reset*/
+body{
+    color: aliceblue;
+    margin: 0px;
+    padding:0px;
+    background-image:url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80) ;
+    background-position: top;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.left{
+    position: absolute;
+    left: 25px;
+    top:20px;
+    display: inline-block;}
+    
+        .left img{
+width: 75px;
+}
+.left div{
+    text-align: center;
+}
+.Mid{
+    position: absolute;
+    left: 602px;
+    top:20px;
+    width: 33%;
+    display: inline-block;
+border: none
+}
+.Right{
+    position: absolute;
+    right: 34px;
+    top:20px;
+    display: inline-block;
+}
+.navbar{
+   display: inline-block; 
+}
+.navbar li{
+    display:inline-block ;
+    font-size: 25px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding:34px  20px;
+}
+.navbar li a:hover, .navbar li a.active{
+text-decoration: underline;
+}
+.btn{
+    margin: 2px 9px;
+    background-color: #040443;
+    color: white;
+    padding: 6px 7px;
+    border-radius: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    text-align: center;
+}
+.btn:hover{
+    background-color: rgb(173, 90, 166);
+
+}
+.container{
+    
+    margin: 319px;
+    padding: 26px;
+    width: 500px;
+    height: 305px;
+    border-radius: 9px;
+}
+.form-group{
+    display: block;
+    margin: 3px auto;
+    border: 2px solid black;
+    padding: 2px;
+    width: 358px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 9px;
+    background-color: rgb(244 241 239);
+}
+</style>
+<body>
+   <header class="header">
+       <div class ="left">
+      <img src= "https://thumbs.dreamstime.com/z/circle-logo-circle-logo-symbols-vector-148467700.jpg "alt="  "></img>
+      <div>  SSA </div>
+       </div>
+       <div class ="Mid">
+        <ul class=" navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">center number</a></li>
+        </ul>
+    </div>
+    <div class= "Right">
+<button class="btn">call us now</button>
+<button class="btn">Email us</button>
+
+    </div>
+   </header> 
+   <div class=" container">
+       <h1> Join the best tuitor of Delhi now</h1>
+       <form action="noaction.php">
+           
+        <div class="form-group">
+            <input type="text" name="" placeholder=" ENTER YOUR NAME">
+         </div>
+         <div class="form-group">
+            <input type="text" name="" placeholder=" ENTER YOUR CLASS">
+         </div>
+         <div class="form-group">
+            <input type="text" name="" placeholder=" ENTER YOUR AGE">
+         </div>
+         <div class="form-group">
+            <input type="text" name="" placeholder=" ENTER YOUR WEIGHT">
+         </div>
+         <div class="form-group">
+            <input type="text" name="" placeholder=" ENTER YOUR HEIGHT">
+         </div> 
+         <button class="btn"> Submit</button>  
+       </form>
+   </div>
+</body>
+</html>

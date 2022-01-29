@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSC NSUT Membership Task
+        Web Dev</title>
+</head>
+<style>
+    body {
+        color: rgb(13, 13, 14);
+        background-image: url("https://media.istockphoto.com/photos/empty-pink-studio-room-with-light-and-shadow-abstract-background-picture-id1172194197?k=20&m=1172194197&s=170667a&w=0&h=IsTM8I3uNjUdJhyvGgBxrvMrr-FBZcQklo_5Hq0HeS4=");
+        background-repeat: repeat;
+        background-position: top;
+        background-size: cover;
+        scroll-snap-type: y mandatory;
+        overflow-y: scroll;
+        height: 100%;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .left {
+        margin-left: 75px;
+        margin-top: 20px;
+        font-size: 146%;
+        text-align: center;
+        display: inline-block;
+        color: black;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: #0e0d0d;
+        font-size: 146%;
+        text-decoration: none;
+        padding: 13px 33px;
+    }
+
+    .navbar li a:hover,
+    .navbarli a :active {
+        text-decoration: underline;
+    }
+
+    .right {
+        margin-top: -43px;
+        margin-left: 998px;
+        padding: 7px;
+        text-align: center;
+        /* border: 2px solid rgb(250, 247, 247);
+   /* border:2px solid rgb(250, 247, 247);*/
+
+    }
+
+    .header {
+        padding: 2px;
+        background: #d88e8e;
+        color: rgb(250, 248, 248);
+        position: fixed;
+        width: 100%;
+        margin-top: -180px;
+        margin-left: -8px;
+        margin-right: 0px;
+        margin-bottom: 100%;
+    }
+
+    #Home {
+        height: 100;
+        display: flex;
+        margin: 21px 31px;
+        padding: 3px 200px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        margin-top: 180px;
+        height: 220px;
+    }
+
+    #service .box {
+        margin: 35px;
+        width: 5px;
+        height: 20px;
+    }
+
+    .left1 {
+        /*border: 2px solid brown;*/
+        position: absolute;
+        margin-left: -409px;
+        padding: 29px;
+        top: 609px;
+        font-size: 37px;
+        display: inline-block;
+    }
+
+    .img img {
+        height: 302px;
+        border: 2px solid brown;
+        border-radius: 5px;
+        margin-left: 986px;
+        margin-top: 225px;
+        padding: 0px;
+    }
+
+    .btn1 {
+        border-color: 44px blue;
+        margin: 6px 278px;
+        display: inline-block;
+        height: 26px;
+        background-color: transparent;
+        color: rgb(7, 7, 7);
+        position: absolute;
+        left: 57px;
+        margin-top: 493px;
+        font-size: 20px;
+        width: 285px;
+        border-radius: 7px;
+    }
+
+    .btn1:hover,
+    .btn1 :active {
+        background-color: rgb(219, 188, 188);
+    }
+
+    .btn1:hover {
+        cursor: pointer;
+    }
+
+    .btn2 {
+        border-color: 44px rgb(234, 234, 241);
+        margin: 2px 310px;
+        display: inline-block;
+        height: 26px;
+        background-color: transparent;
+        color: rgb(7, 0, 0);
+        position: absolute;
+        font-size: 20px;
+        left: 405px;
+        margin-top: 493px;
+        width: 285px;
+        border-radius: 7px;
+    }
+
+    .btn2:hover:hover,
+    .btn2 :active {
+        background-color: rgb(219, 188, 188);
+    }
+
+    .btn2:hover:hover {
+        cursor: pointer;
+    }
+
+    #Home h1 {
+        text-align: center;
+        color: solid black;
+        border: 2px;
+        padding: 12px;
+        text-decoration: underline;
+    }
+
+    #hobbies-section {
+        height: 560px;
+    }
+
+    #hobbies {
+        display: flex;
+        padding: 3px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 23px;
+    }
+
+    .hobbies-item {
+        padding: 2px;
+    }
+
+    #hobbies img {
+        height: 236px;
+        padding: 82px 67px;
+
+    }
+
+    .h-primary {
+        text-align: center;
+        background-color: rgb(133, 170, 158);
+        margin-top: 412px;
+    }
+
+    #skill{
+
+        height: 550px;
+    }
+
+    #skill div {
+        align-items: center;
+    padding: 44px;
+    height: 23px;
+    margin-left: 800px;
+    width: 45px;
+
+    }
+    #skill div img{
+        display: flex;
+        height: 26px;
+    }
+    #file{
+        width: 270px;
+    height: 30px;
+
+    }
+
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <strong>Aashutosh</strong>
+        </div>
+        <div class="right">
+            <ul class=" navbar"><strong>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#hobbies-section">my hobbies</a></li>
+                    <li><a href="#skill">skills</a></li>
+                </strong></ul>
+        </div>
+        </div>
+    </header>
+    <section class="container">
+        
+    </section>
+    <section id="Home">
+        
+        <p class="left1">
+
+            My name is Aashutosh Yadav <br>I'm pursuing my B.Tech from Netaji Subhas University of Technology<br> Currently in Second Year in Instrumentation and Control Engineering<br>
+
+        </p>
+        <div class="img">
+            <img src="anshu pic.jpeg" alt="">
+
+        </div>
+        <button class="btn1">my hobbies</button>
+        <button class="btn2">skills</button>
+    </section>
+
+    <section id="hobbies-section">
+        <h1 class="h-primary"> MY hobbies</h1>
+        <div id="hobbies">
+            
+            <div class="hobbies item">
+                <img src="bg1-removebg-preview.png" alt="coding">
+                <p> <strong>  Coding</strong></p>
+            </div>
+            <div class="hobbies item">
+                <img src="bg2.png" alt="coding">
+                <p> <strong>   cricket</strong></p>
+            </div>
+            <div class="hobbies item">
+                <img src="bg3-removebg-preview.png" alt="coding">
+                <p> <strong>  listining music</strong></p>
+            </div>
+        </div>
+    </section>
+    <section id="skill">
+        <h1 class="h-primary center">SKILLS </h1>
+        <div  class=" s1">
+            <img src="html.png"alt="">
+            <label for="file">HTML</label>
+            <progress id="file" value="80" max="100"> 80% </progress>
+        </div>
+        <div><img src="css.png"alt="">
+            <label for="file">CSS</label>
+            <progress id="file" value="60" max="100"> 60% </progress>
+        </div>
+        <div><img src="js.png"alt="">
+            <label for="file">JAVASCRIPT</label>
+            <progress id="file" value="40" max="100"> 40% </progress>
+        </div>
+    </section>
+    
+</body>
+
+</html>

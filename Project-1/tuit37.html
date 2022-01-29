@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>key frame and animation
+    </title>
+</head>
+<style>
+.container{
+    background-color: blueviolet;
+}
+.box{
+    background-color: brown;
+    width:20px;
+    height:25px;
+    position:relative;
+    animation-name: sp1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes sp1{
+    from{
+width:0px;
+    }
+    to{
+        width:100%;
+    }
+}
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+This is box.
+        </div>
+    </div>
+</body>
+</html>
